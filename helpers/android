@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker-compose run --rm -w /project/android rn $@

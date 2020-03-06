@@ -1,0 +1,78 @@
+{
+  "name": "meetingRoomApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "test": "jest",
+    "lint": "eslint --ext .jsx --ext .js .",
+    "lint:fix": "eslint --ext .jsx --ext .js . --fix",
+    "ipad": "react-native run-ios --simulator=\"iPad Pro (9.7-inch)\"",
+    "build:android": "react-native run-android --variant=release"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-native-fontawesome": "^0.2.0",
+    "@react-native-community/async-storage": "^1.6.1",
+    "@react-native-community/blur": "^3.3.1",
+    "axios": "^0.19.0",
+    "babel-plugin-dotenv": "^0.1.1",
+    "babel-plugin-inline-import": "^3.0.0",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-fast-image": "^7.0.2",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-progress-wheel": "^1.0.4",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-screens": "^2.2.0",
+    "react-native-sensitive-info": "^5.5.5",
+    "react-native-svg": "^9.9.4",
+    "react-native-svg-asset-plugin": "^0.3.0",
+    "react-native-swiper": "^1.5.14",
+    "react-native-system-setting": "^1.7.2",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.12.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-persist": "^6.0.0",
+    "redux-persist-sensitive-storage": "^1.0.0",
+    "redux-saga": "^1.0.5",
+    "socket.io-client": "2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-preset-react-native": "^4.0.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "path": "^0.12.7",
+    "react-native-dotenv": "^0.2.0",
+    "react-native-svg-transformer": "^0.13.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
