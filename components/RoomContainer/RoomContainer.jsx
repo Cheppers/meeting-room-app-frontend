@@ -31,7 +31,7 @@ const RoomContainer = ({
       roomImage = `${backendUrl}/images/reserved.png`;
     }
   } else {
-    roomImage = `${backendUrl}/images/adhocmeeting.png`;
+    roomImage = `${backendUrl}/images/available.png`;
   }
   return (
     <View
